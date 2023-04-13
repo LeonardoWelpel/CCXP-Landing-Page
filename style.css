@@ -1,0 +1,149 @@
+body {
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: grid;
+}
+
+header {
+    background: #FFD900;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+main {
+    display: grid;
+    grid-auto-flow: column;
+    margin: 0px;
+}
+
+#part1 {
+    height: 100%;
+    margin-top: -42px;
+
+}
+
+#epico {
+    width: 50vw;
+    background: #514988;
+    text-align: center;
+    color: white;
+    height: 450px;
+    border: #514988;
+    border-radius: 5px;
+
+}
+
+#epico h1 {
+    font-weight: 700;
+    font-size: 50px;
+    color: #F3C61F;
+    padding: 20px;
+}
+
+#epico p {
+    padding: 5px;
+}
+
+#part2 {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+}
+
+#timer {
+    display: grid;
+    grid-auto-flow: column;
+    font-family: 'Verdana';
+    align-items: center;
+    text-align: center;
+    color: #514988;
+    border: solid #514988;
+    border-radius: 10px;
+
+    justify-content: space-around;
+    margin: 7px 40px 5px -50px;
+}
+
+video {
+    border: solid #514988;
+    border-radius: 10px;
+    border-width: 5px;
+    margin-left: -20px;
+}
+
+#part2 p {
+    font-weight: 700;
+
+}
+
+
+#part2 #p {
+    color: #E33881;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 5px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: -90px;
+
+}
+
+#footer {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-around;
+    margin-left: -80px;
+    padding: 10px;
+
+
+}
+
+.img {
+    padding: 0px;
+    justify-content: space-between;
+    margin-left: -200px;
+}
+
+footer h3 {
+    color: #F3C61F;
+    font-weight: 700;
+    margin-left: 100px;
+
+}
+
+input {
+    width: 400px;
+    height: 100px;
+    background: #514988;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    margin-left: -100px;
+}
+
+input:hover {
+    background-color: #FFD900;
+    color: black;
+    transition: 0.3s;
+    animation: alternate;
+
+}
+
+#epico:hover {
+    background: #3f3770;
+}
+
+.card-highlight {
+    box-shadow: 10px 10px 10px 10px gray;
+    transition: 0.3s;
+}
